@@ -27,7 +27,7 @@ public class PostmanEchoTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .contentType(ContentType.JSON)
+                .contentType(ContentType.TEXT)
                 .body("json.house.room[0].name", equalTo("Bedroom"))
                 .body("json.house.room[2].appliance", equalTo("microwave"))
                 .body("json.house.garden.area", equalTo(150))
