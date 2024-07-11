@@ -1,0 +1,22 @@
+{
+	"house": {
+		"room": [
+			{
+				"name": "Bedroom",
+				"area": 10
+			},
+			{
+				"name": "Bathroom",
+				"area": 9
+			},
+			{
+				"name": "Kitchen",
+				"appliance": "microwave",
+				"area": 12
+			}
+		],
+		"garden": {
+			"area": 150
+		}
+	}
+}
